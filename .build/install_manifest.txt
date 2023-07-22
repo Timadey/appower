@@ -1,0 +1,15 @@
+/home/joshua/timothy/projects/appower/venv/include/raplcap/raplcap.h
+/home/joshua/timothy/projects/appower/venv/lib/cmake/raplcap/RAPLCapTargets.cmake
+/home/joshua/timothy/projects/appower/venv/lib/cmake/raplcap/RAPLCapConfig.cmake
+/home/joshua/timothy/projects/appower/venv/lib/cmake/raplcap/RAPLCapConfigVersion.cmake
+/home/joshua/timothy/projects/appower/venv/lib/libraplcap-msr.so.0.9.0
+/home/joshua/timothy/projects/appower/venv/lib/libraplcap-msr.so.0
+/home/joshua/timothy/projects/appower/venv/lib/libraplcap-msr.so
+/home/joshua/timothy/projects/appower/venv/include/raplcap/raplcap-msr.h
+/home/joshua/timothy/projects/appower/venv/lib/cmake/raplcap/RAPLCapMSRTargets.cmake
+/home/joshua/timothy/projects/appower/venv/lib/cmake/raplcap/RAPLCapMSRTargets-noconfig.cmake
+/home/joshua/timothy/projects/appower/venv/lib/pkgconfig/raplcap-msr.pc
+/home/joshua/timothy/projects/appower/venv/bin/rapl-configure-msr
+/home/joshua/timothy/projects/appower/venv/share/man/man1/rapl-configure-msr.1
+/home/joshua/timothy/projects/appower/venv/lib/cmake/raplcap/RAPLCapMSRUtilsTargets.cmake
+/home/joshua/timothy/projects/appower/venv/lib/cmake/raplcap/RAPLCapMSRUtilsTargets-noconfig.cmake

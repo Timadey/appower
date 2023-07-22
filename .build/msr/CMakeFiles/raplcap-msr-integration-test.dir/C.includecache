@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/joshua/timothy/projects/appower/raplcap/inc/raplcap.h
+inttypes.h
+-
+
+/home/joshua/timothy/projects/appower/raplcap/test/raplcap-integration-test.c
+assert.h
+-
+float.h
+-
+inttypes.h
+-
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+raplcap.h
+/home/joshua/timothy/projects/appower/raplcap/test/raplcap.h
+

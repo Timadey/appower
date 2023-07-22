@@ -1,0 +1,13 @@
+prefix=/home/joshua/timothy/projects/appower/venv
+exec_prefix=${prefix}
+includedir=${prefix}/include/raplcap
+libdir=${exec_prefix}/lib
+
+Name: raplcap-msr
+Description: Implementation of RAPLCap that uses the MSR directly
+Version: 0.9.0
+Requires: 
+Requires.private: 
+Cflags: -I${includedir}
+Libs: -L${libdir} -lraplcap-msr
+Libs.private: 
