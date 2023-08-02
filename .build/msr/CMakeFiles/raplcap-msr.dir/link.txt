@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC   -shared -Wl,-soname,libraplcap-msr.so.0 -o libraplcap-msr.so.0.9.0 CMakeFiles/raplcap-msr.dir/raplcap-msr.c.o CMakeFiles/raplcap-msr.dir/raplcap-msr-common.c.o CMakeFiles/raplcap-msr.dir/raplcap-msr-sys-linux.c.o CMakeFiles/raplcap-msr.dir/raplcap-cpuid.c.o 

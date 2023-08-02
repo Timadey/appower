@@ -1,0 +1,24 @@
+#!/usr/bin/env python3
+
+"""Target application used to test appower
+The energy conumption of this application was measured
+
+Usage: ./test_appower second_for_application_to_run
+"""
+from appower.worker import Energy
+import sys
+
+if len(sys.argv) < 2:
+    print("Usage: ./test_appower second_for_application_to_run")
+    sys.exit(1)
+period = int(sys.argv[1])
+
+# period = 200
+
+# Energy consumption data for 19 seconds
+rapl = Energy()
+print(f"Getting RAPL energy for {period} secs")
+# Get energy on normal cas scenerio in RAPL_ENERGY_INTERVAL interval
+normal_energy_metrics = rapl.get_rapl_energy_in(period)
+print(f"Energy metric collected during test: {normal_energy_metrics}")
+
